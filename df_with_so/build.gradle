@@ -1,0 +1,25 @@
+apply plugin: 'com.android.dynamic-feature'
+
+android {
+    compileSdkVersion 29
+
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation project(':app')
+    implementation "com.yy.android.yylivesdk4cloud:yylivesdk4cloud-audiovideo:2.1.3-snapshot215"
+}

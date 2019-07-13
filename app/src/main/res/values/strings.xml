@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Moork</string>
+    <string name="title_dynamic_feature">DynamicName</string>
+    <string name="title_df_with_so">df_with_so</string>
+</resources>
